@@ -1,6 +1,6 @@
 import ReactDOM from 'react-dom/client'
 import {
-  BrowserRouter,
+  HashRouter,
   Routes,
   Route
 } from "react-router-dom"
@@ -15,7 +15,8 @@ import { EPages } from './state/enums/EPages'
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <div className='container mx-auto pt-4 px-4 mb-10'>
-    <BrowserRouter>
+    
+    <HashRouter>
       <Navbar />
       <Routes>
         <Route path={EPages.HOME} element={<Home />} />
@@ -23,6 +24,6 @@ ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
         <Route path={EPages.CONTACT} element={<Contact />} />
         <Route path={EPages.PORTFOLIO} element={<Portfolio />} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   </div>
 )
