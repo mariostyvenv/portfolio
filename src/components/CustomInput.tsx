@@ -1,10 +1,10 @@
 import { useRef } from 'react';
 
-interface TCustomInput{
+interface ICustomInput{
     label:string
 }
 
-export default function CustomInput({label}:TCustomInput) {
+export default function CustomInput({label}:ICustomInput) {
     const ref = useRef<HTMLInputElement>(null);
 
     const handleClick = () => {

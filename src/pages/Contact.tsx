@@ -1,20 +1,28 @@
 import CustomInput from "../components/CustomInput";
 import ForwardToInboxOutlinedIcon from '@mui/icons-material/ForwardToInboxOutlined';
-
+import { cardsContact } from "../data/ContactData";
+import TitleBar from "../components/TitleBar";
 export default function Contact() {
     return (
         <div className="p-6 md:p-12 w-full bg-[#1E1E1E] mt-10 md:mt-16 rounded-[20px]">
-            <div className="flex items-center">
-                <p className="text-4xl text-white font-semibold pr-3">Contacto</p>
-                <div className="bg-gradient-to-r from-[#FA5252] to-[#DD2476] h-1 w-24 rounded"></div>
-            </div>
-            <div className="flex mt-10">
-                <div className="w-2/5 pr-5">
-                    <div className="bg-[#222425] w-full h-20 rounded-xl">
-
+            <TitleBar title="Contacto"/>
+            <div className="flex mt-10 flex-col space-y-4 lg:flex-row lg:space-x-4 lg:space-y-0">
+                <div className="w-full lg:w-2/5">
+                    <div className="flex flex-col space-y-4">
+                        {cardsContact.map((item, index) => (
+                            <div className="bg-[#222425] w-full rounded-xl p-4">
+                                <div className="flex items-center">
+                                    <img src={item.icon} className="w-10" />
+                                    <div className="pl-4">
+                                        <p className="text-white font-bold text-lg">{item.title}</p>
+                                        <p className="text-slate-400">{item.description}</p>
+                                    </div>
+                                </div>
+                            </div>
+                        ))}
                     </div>
                 </div>
-                <div className="w-3/5">
+                <div className="w-full lg:w-3/5">
                     <div className="border border-slate-400 rounded-xl p-10">
                         <p className="text-slate-400 text-3xl mb-10">
                             Estoy abierto a escuchar sus<br />
@@ -31,7 +39,6 @@ export default function Contact() {
                     </div>
                 </div>
             </div>
-
         </div>
     );
 }

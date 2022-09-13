@@ -14,7 +14,7 @@ export default function Home() {
                         ¡Hola! soy,<br />
                         <p className="text-transparent text-5xl md:text-6xl bg-clip-text bg-gradient-to-r from-[#FA5252] to-[#DD2476]">Mario Velandia</p>
                     </p>
-                    <p className="text-white text-2xl font-bold pt-4">
+                    <p className="text-white text-xl md:text-2xl font-bold pt-4">
                         Desarrollador FullStack con experiencia en
                         Desarrollo Web, Mobile y Backend orientado a
                         Microservicios.
@@ -26,10 +26,10 @@ export default function Home() {
                         <p className="text-white font-extrabold pl-2">Contáctame</p>
                     </Link>
                     <div className="flex flex-row">
-                        <a href="https://google.com" target="_blank" rel="noreferrer" className="flex mr-4 bg-gradient-to-r from-[#FA5252] to-[#DD2476] py-1 px-2 rounded items-center">
+                        <a href="https://github.com/mariostyvenv" target="_blank" rel="noreferrer" className="flex mr-4 bg-gradient-to-r from-[#FA5252] to-[#DD2476] py-1 px-2 rounded items-center">
                             <img src={LogoGH} className="h-6 invert" />
                         </a>
-                        <a href="https://google.com" target="_blank" rel="noreferrer" className="flex bg-gradient-to-r from-[#FA5252] to-[#DD2476] py-1 px-2 rounded items-center">
+                        <a href="https://www.linkedin.com/in/mariostyvenv/" target="_blank" rel="noreferrer" className="flex bg-gradient-to-r from-[#FA5252] to-[#DD2476] py-1 px-2 rounded items-center">
                             <img src={LogoLk} className="h-6 invert" />
                         </a>
                     </div>
