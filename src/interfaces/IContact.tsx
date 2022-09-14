@@ -1,7 +1,8 @@
 interface ICardContact {
     icon: string,
     title: string,
-    description: string
+    description: string,
+    url:string
 }
 
 export type { ICardContact }

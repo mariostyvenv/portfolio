@@ -1,6 +1,6 @@
 import TitleBar from "../components/TitleBar"
 import { cards, cardsExperience, cardsStudies } from "../data/AboutData"
-
+import LaunchOutlinedIcon from '@mui/icons-material/LaunchOutlined';
 export default function About() {
     const renderCards = cards.map((value) => {
         return (
@@ -33,10 +33,11 @@ export default function About() {
     const renderCardsExperience = cardsExperience.map(value => {
         return (
             <div className="border border-slate-400 rounded-xl p-4">
-                <div className="flex justify-between">
+                <div className="flex justify-between pb-4">
                     <p className="text-slate-400">{value.date}</p>
-                    <a href={value.url} target="_blank" rel="noreferrer">
+                    <a href={value.url} target="_blank" rel="noreferrer" className="flex text-slate-400 items-center space-x-1">
                         <img src={value.icon} className="w-20" />
+                        <LaunchOutlinedIcon fontSize="small" />
                     </a>
                 </div>
                 <p className="text-white font-bold">{value.title}</p>
@@ -52,8 +53,9 @@ export default function About() {
             <div className="border border-slate-400 rounded-xl p-4">
                 <div className="flex justify-between">
                     <p className="text-slate-400">{value.date}</p>
-                    <a href={value.url} target="_blank" rel="noreferrer">
+                    <a href={value.url} target="_blank" rel="noreferrer" className="flex text-slate-400 items-center space-x-1">
                         <img src={value.icon} className="w-20" />
+                        <LaunchOutlinedIcon fontSize="small" />
                     </a>
                 </div>
                 <p className="text-white font-bold">{value.title}</p>
