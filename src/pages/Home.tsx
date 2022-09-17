@@ -12,7 +12,7 @@ export default function Home() {
                 <div className="">
                     <p className="text-white text-5xl md:text-6xl font-bold">
                         ¡Hola! soy,<br />
-                        <p className="text-transparent text-5xl md:text-6xl bg-clip-text bg-gradient-to-r from-[#FA5252] to-[#DD2476]">Mario Velandia</p>
+                        <span className="text-transparent text-5xl md:text-6xl bg-clip-text bg-gradient-to-r from-[#FA5252] to-[#DD2476]">Mario Velandia</span>
                     </p>
                     <p className="text-white text-xl md:text-2xl font-bold pt-4">
                         Desarrollador FullStack con experiencia en

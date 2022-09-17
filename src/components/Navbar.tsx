@@ -5,7 +5,7 @@ import BusinessCenterOutlinedIcon from '@mui/icons-material/BusinessCenterOutlin
 import ForwardToInboxOutlinedIcon from '@mui/icons-material/ForwardToInboxOutlined';
 import CloseOutlinedIcon from '@mui/icons-material/CloseOutlined';
 import MenuOutlinedIcon from '@mui/icons-material/MenuOutlined';
-import { EPages } from "../state/enums/EPages";
+import { EPages } from "../enums/EPages";
 import { useNavigate, useLocation, Link } from "react-router-dom";
 import { useState } from "react";
 

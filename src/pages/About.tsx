@@ -2,9 +2,9 @@ import TitleBar from "../components/TitleBar"
 import { cards, cardsExperience, cardsStudies } from "../data/AboutData"
 import LaunchOutlinedIcon from '@mui/icons-material/LaunchOutlined';
 export default function About() {
-    const renderCards = cards.map((value) => {
+    const renderCards = cards.map((value, index) => {
         return (
-            <div className="flex border border-slate-400 rounded-xl p-4">
+            <div key={index} className="flex border border-slate-400 rounded-xl p-4">
                 <div>
                     <img src={value.icon} className="w-10" />
                 </div>
@@ -15,9 +15,9 @@ export default function About() {
                     </div>
 
                     <div className="grid grid-cols-2 pt-2">
-                        {value.items.map(item => {
+                        {value.items.map((item, index) => {
                             return (
-                                <div className="flex items-center pt-2 truncate pr-1">
+                                <div key={index} className="flex items-center pt-2 truncate pr-1">
                                     <img src={item.icon} className="w-10 pr-2" />
                                     <p className="text-white text-sm truncate">{item.name}</p>
                                 </div>
@@ -30,9 +30,9 @@ export default function About() {
         )
     })
 
-    const renderCardsExperience = cardsExperience.map(value => {
+    const renderCardsExperience = cardsExperience.map((value, index) => {
         return (
-            <div className="border border-slate-400 rounded-xl p-4">
+            <div key={index} className="border border-slate-400 rounded-xl p-4">
                 <div className="flex justify-between pb-4">
                     <p className="text-slate-400">{value.date}</p>
                     <a href={value.url} target="_blank" rel="noreferrer" className="flex text-slate-400 items-center space-x-1">
@@ -42,15 +42,15 @@ export default function About() {
                 </div>
                 <p className="text-white font-bold">{value.title}</p>
                 <ul className="list-disc pl-4 pt-3">
-                    {value.items.map(item => item)}
+                    {value.items.map((item, key) => (<div key={key}>{item}</div>))}
                 </ul>
             </div>
         )
     })
 
-    const renderCardsStudies = cardsStudies.map(value => {
+    const renderCardsStudies = cardsStudies.map((value, index) => {
         return (
-            <div className="border border-slate-400 rounded-xl p-4">
+            <div key={index} className="border border-slate-400 rounded-xl p-4">
                 <div className="flex justify-between">
                     <p className="text-slate-400">{value.date}</p>
                     <a href={value.url} target="_blank" rel="noreferrer" className="flex text-slate-400 items-center space-x-1">

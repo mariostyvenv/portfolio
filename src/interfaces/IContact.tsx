@@ -5,4 +5,10 @@ interface ICardContact {
     url:string
 }
 
-export type { ICardContact }
+interface IButtonForm {
+    prevent: boolean,
+    icon: JSX.Element,
+    text: string
+}
+
+export type { ICardContact, IButtonForm }
