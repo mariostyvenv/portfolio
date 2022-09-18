@@ -106,8 +106,8 @@ const cardsExperience: ICardExperience[] = [
         icon: PersonalLogo,
         url: "https://personalsoft.com/",
         items: [
-            <li className="text-white leading-6 pt-1">Backend Developer en <a href="" className="font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#FA5252] to-[#DD2476]">Mercadolibre</a>, utilizando tecnologías con Java y Groovy.</li>,
-            <li className="text-white leading-6 pt-1">Backend Developer en <a href="" className="font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#FA5252] to-[#DD2476]">Leal.co</a>, utilizando tecnologías con NestJS, Redis, Kubernetes.</li>
+            <li className="text-white leading-6 pt-1">Backend Developer en <a target="_blank" href="https://mercadolibre.com/" className="font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#FA5252] to-[#DD2476]">Mercadolibre</a>, utilizando tecnologías con Java y Groovy.</li>,
+            <li className="text-white leading-6 pt-1">Backend Developer en <a target="_blank" href="https://leal.co/" className="font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#FA5252] to-[#DD2476]">Leal.co</a>, utilizando tecnologías con NestJS, Redis, Kubernetes.</li>
         ]
     },
     {
@@ -126,7 +126,7 @@ const cardsExperience: ICardExperience[] = [
         icon: VisionLogo,
         url: "https://www.visionsoftware.com.co/",
         items: [
-            <li className="text-white leading-6 pt-1">Analista de proyectos para el <a href="" className="font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#FA5252] to-[#DD2476]">Grupo Aval.</a></li>,
+            <li className="text-white leading-6 pt-1">Analista de proyectos para el <a target="_blank" href="https://www.grupoaval.com/" className="font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#FA5252] to-[#DD2476]">Grupo Aval.</a></li>,
             <li className="text-white leading-6 pt-1">Creación de prototipos funcionales con VueJS y NodeJS.</li>,
             <li className="text-white leading-6 pt-1">Creación de proyectos en la Nube con Azure y Kubernetes.</li>
         ]
