@@ -31,6 +31,8 @@ import AveLogo from "../assets/avecolor.png"
 import ActivityLogo from "../assets/logoactivity.png"
 import CesdeLogo from "../assets/cesde.png"
 import PlatziLogo from "../assets/platzi.png"
+import ArusLogo from "../assets/logoarus.png"
+import CampusLogo from "../assets/logocampus.png"
 import { ICardAbout, ICardExperience, ICardStudies } from "../interfaces/IAbout"
 
 const cards: ICardAbout[] = [
@@ -102,6 +104,17 @@ const cards: ICardAbout[] = [
 const cardsExperience: ICardExperience[] = [
     {
         date: "2022 - Actualmente",
+        title: "Analista de Automatización N3",
+        icon: ArusLogo,
+        url: "https://www.arus.com.co/",
+        items: [
+            <li className="text-white leading-6 pt-1">Backend developer para proyectos internos.</li>,
+            <li className="text-white leading-6 pt-1">Frontend developer para proyectos internos.</li>,
+            <li className="text-white leading-6 pt-1">Asesoramiento de arquitectura de infraestrura y software.</li>,
+        ]
+    },
+    {
+        date: "2022",
         title: "Senior Software Developer",
         icon: PersonalLogo,
         url: "https://personalsoft.com/",
@@ -160,7 +173,13 @@ const cardsStudies: ICardStudies[] = [
         date: "2019",
         title: "Técnico Desarrollador de Software.",
         icon: CesdeLogo,
-        url: "https://www.cesde.edu.co/"
+        url: "https://drive.google.com/file/d/1unvwdxP60-t6_88y9UliAFAcdqudZxS6/view?usp=share_link"
+    },
+    {
+        date: "2022",
+        title: "Diplomado en desarrollo Frontend en ReactJS.",
+        icon: CampusLogo,
+        url: "https://drive.google.com/file/d/18tOb6F77GuhUQHfKMwSMbJ16aKfQgTyQ/view?usp=share_link"
     },
     {
         date: "2021",
