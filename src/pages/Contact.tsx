@@ -8,9 +8,11 @@ import { FormEvent, useRef, useState } from "react";
 import axios from "axios";
 import { IButtonForm } from "../interfaces/IContact";
 import { EBtnForm } from "../enums/EContacts";
+import ReactGA from "react-ga4";
 import React from "react";
 export default function Contact() {
 
+    ReactGA.event({category: "mariovelandia.co",action: "Contact",label: "Contact" });
     const getBtnForm = (value: EBtnForm): IButtonForm => btnFormsRender[value];
     const recaptchaRef = React.useRef<ReCAPTCHA>(null);
     

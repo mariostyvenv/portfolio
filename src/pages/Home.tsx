@@ -2,10 +2,13 @@ import FotoMain from "../assets/fotomain.png"
 import LogoGH from "../assets/github.png"
 import LogoLk from "../assets/linkedin.png"
 import { Link } from "react-router-dom"
+import ReactGA from "react-ga4";
 
 import ForwardToInboxOutlinedIcon from '@mui/icons-material/ForwardToInboxOutlined';
 
 export default function Home() {
+
+    ReactGA.event({category: "mariovelandia.co",action: "Home",label: "Home" });
     return (
         <div className="flex flex-col md:flex-row pt-10 md:pt-32 justify-between">
             <div className="w-auto md:w-2/5">

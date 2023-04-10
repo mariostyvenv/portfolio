@@ -11,6 +11,9 @@ import Contact from './pages/Contact'
 import Home from './pages/Home'
 import Portfolio from './pages/Portfolio'
 import { EPages } from './enums/EPages'
+const TRACKING_ID = "G-7M8DKFKN93"; // OUR_TRACKING_ID
+import ReactGA from "react-ga4";
+ReactGA.initialize(TRACKING_ID);
 
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(

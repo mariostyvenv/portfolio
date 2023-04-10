@@ -1,9 +1,10 @@
 import LogoGithub from "../assets/github.png"
 import TitleBar from "../components/TitleBar";
 import { cardsPortfolio } from "../data/PortfolioData";
+import ReactGA from "react-ga4";
 
 export default function Portfolio() {
-
+    ReactGA.event({category: "mariovelandia.co",action: "Portfolio",label: "Portfolio" });
     return (
         <div className="p-6 md:p-12 w-full bg-[#1E1E1E] mt-10 md:mt-16 rounded-[20px]">
             <TitleBar title="Portafolio"/>

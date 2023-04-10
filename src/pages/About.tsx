@@ -1,7 +1,9 @@
 import TitleBar from "../components/TitleBar"
 import { cards, cardsExperience, cardsStudies } from "../data/AboutData"
 import LaunchOutlinedIcon from '@mui/icons-material/LaunchOutlined';
+import ReactGA from "react-ga4";
 export default function About() {
+    ReactGA.event({category: "mariovelandia.co",action: "About",label: "About" });
     const renderCards = cards.map((value, index) => {
         return (
             <div key={index} className="flex border border-slate-400 rounded-xl p-4">
