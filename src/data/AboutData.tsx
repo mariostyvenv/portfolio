@@ -4,7 +4,6 @@ import MobileLogo from "../assets/phone.png"
 import BaseDatosLogo from "../assets/base-de-datos.png"
 import InfinitoLogo from "../assets/infinito.png"
 import CloudLogo from "../assets/cloud.png"
-import RustLogo from "../assets/rustinvert.png"
 import GOLogo from "../assets/golang.png"
 import JavaLogo from "../assets/java.png"
 import TSLogo from "../assets/typescript.png"
@@ -33,6 +32,7 @@ import CesdeLogo from "../assets/cesde.png"
 import PlatziLogo from "../assets/platzi.png"
 import ArusLogo from "../assets/logoarus.png"
 import CampusLogo from "../assets/logocampus.png"
+import Python from "../assets/python.png"
 import { ICardAbout, ICardExperience, ICardStudies } from "../interfaces/IAbout"
 
 const cards: ICardAbout[] = [
@@ -41,7 +41,7 @@ const cards: ICardAbout[] = [
         description: "Creación de sistemas orientados a servicios, microservicios, monolíticos, concurrentes y eventos.",
         icon: ConfigLogo,
         items: [
-            { icon: RustLogo, name: "Rust" },
+            { icon: Python, name: "Python" },
             { icon: GOLogo, name: "Golang" },
             { icon: JavaLogo, name: "Java" },
             { icon: TSLogo, name: "Typescript" }
