@@ -30,7 +30,7 @@ import AveLogo from "../assets/avecolor.png"
 import ActivityLogo from "../assets/logoactivity.png"
 import CesdeLogo from "../assets/cesde.png"
 import PlatziLogo from "../assets/platzi.png"
-import ArusLogo from "../assets/logoarus.png"
+import EnlaceLogo from "../assets/enlace.png"
 import CampusLogo from "../assets/logocampus.png"
 import Python from "../assets/python.png"
 import { ICardAbout, ICardExperience, ICardStudies } from "../interfaces/IAbout"
@@ -105,8 +105,8 @@ const cardsExperience: ICardExperience[] = [
     {
         date: "2022 - Actualmente",
         title: "Analista de Automatización N3",
-        icon: ArusLogo,
-        url: "https://www.arus.com.co/",
+        icon: EnlaceLogo,
+        url: "https://www.suaporte.com.co/sso/#/",
         items: [
             <li className="text-white leading-6 pt-1">Backend developer para proyectos internos.</li>,
             <li className="text-white leading-6 pt-1">Frontend developer para proyectos internos.</li>,

@@ -11,20 +11,14 @@ const cardsContact: ICardContact[] = [
     {
         icon: LogoMessage,
         title: "Email",
-        description: "mariostyvenv@gmail.com",
-        url:"mailto:mariostyvenv@gmail.com"
-    },
-    {
-        icon: LogoWhatsapp,
-        title: "Celular",
-        description: "(57) 3059237357",
-        url:"https://wa.me/573059237357"
+        description: "mariovelandia.co@gmail.com",
+        url:"mailto:mariovelandia.co@gmail.com"
     },
     {
         icon: LogoMaps,
         title: "Ubicación",
         description: "Medellín - Colombia",
-        url:"mailto:mariostyvenv@gmail.com"
+        url:"mailto:mariovelandia.co@gmail.com"
     },
 ]
 
