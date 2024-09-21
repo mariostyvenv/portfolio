@@ -11,14 +11,14 @@ const cardsContact: ICardContact[] = [
     {
         icon: LogoMessage,
         title: "Email",
-        description: "mariovelandia.co@gmail.com",
-        url:"mailto:mariovelandia.co@gmail.com"
+        description: "contact@mariovelandia.co",
+        url:"mailto:contact@mariovelandia.co"
     },
     {
         icon: LogoMaps,
         title: "Ubicación",
         description: "Medellín - Colombia",
-        url:"mailto:mariovelandia.co@gmail.com"
+        url:"mailto:contact@mariovelandia.co"
     },
 ]
 

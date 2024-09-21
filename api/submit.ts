@@ -39,8 +39,8 @@ async function sendEmail(submit: ISubmit) {
     });
 
     const mailOptions = {
-        from: `"${submit.name}" <${submit.email}>`,
-        to: process.env.CONTACT_EMAIL,
+        from: process.env.SMTP_USER,
+        to: process.env.SMTP_USER,
         subject: `Nuevo mensaje de contacto de ${submit.name}`,
         text: `Nombre: ${submit.name}\nEmail: ${submit.email}\nCelular: ${submit.phone}\nMensaje: ${submit.message}`
     };
