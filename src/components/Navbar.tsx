@@ -1,4 +1,4 @@
-import LogoMain from "../assets/logomain.png"
+import LogoMain from "../assets/logomain.webp"
 import HouseOutlinedIcon from '@mui/icons-material/HouseOutlined';
 import FaceOutlinedIcon from '@mui/icons-material/FaceOutlined';
 import BusinessCenterOutlinedIcon from '@mui/icons-material/BusinessCenterOutlined';

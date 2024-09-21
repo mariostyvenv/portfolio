@@ -55,10 +55,9 @@ export default function About() {
             <div key={index} className="border border-slate-400 rounded-xl p-4">
                 <div className="flex justify-between">
                     <p className="text-slate-400">{value.date}</p>
-                    <a href={value.url} target="_blank" rel="noreferrer" className="flex text-slate-400 items-center space-x-1">
+                    <div className="flex text-slate-400 items-center space-x-1">
                         <img src={value.icon} className="w-20" />
-                        <LaunchOutlinedIcon fontSize="small" />
-                    </a>
+                    </div>
                 </div>
                 <p className="text-white font-bold">{value.title}</p>
             </div>

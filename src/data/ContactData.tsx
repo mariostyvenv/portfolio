@@ -1,6 +1,6 @@
-import LogoMessage from "../assets/message.png"
-import LogoMaps from "../assets/maps.png"
-import LogoWhatsapp from "../assets/whatsapp.png"
+import LogoMessage from "../assets/message.webp"
+import LogoMaps from "../assets/maps.webp"
+import LogoWhatsapp from "../assets/whatsapp.webp"
 import { IButtonForm, ICardContact } from "../interfaces/IContact"
 import CheckOutlinedIcon from '@mui/icons-material/CheckOutlined';
 import WarningAmberOutlinedIcon from '@mui/icons-material/WarningAmberOutlined';

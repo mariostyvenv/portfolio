@@ -1,38 +1,38 @@
-import ConfigLogo from "../assets/configuracion.png"
-import FrontendLogo from "../assets/backend.png"
-import MobileLogo from "../assets/phone.png"
-import BaseDatosLogo from "../assets/base-de-datos.png"
-import InfinitoLogo from "../assets/infinito.png"
-import CloudLogo from "../assets/cloud.png"
-import GOLogo from "../assets/golang.png"
-import JavaLogo from "../assets/java.png"
-import TSLogo from "../assets/typescript.png"
-import ReactLogo from "../assets/reactjs.png"
-import VueLogo from "../assets/vuejs.png"
-import FlutterLogo from "../assets/flutter-logo.png"
-import DartLogo from "../assets/dart.png"
-import MySQLogo from "../assets/mysql.png"
-import PostgresLogo from "../assets/postgres.png"
-import FirestoreLogo from "../assets/firestore.png"
-import MongoDBLogo from "../assets/mongodb.png"
-import DockerLogo from "../assets/dcoker.png"
-import KubernetesLogo from "../assets/kubernetes.png"
-import JenkinsLogo from "../assets/jenkinss.png"
-import TerraLogo from "../assets/terraa.png"
-import AWSLogo from "../assets/awss.png"
-import GCloudLogo from "../assets/gcloud.png"
-import AzureLogo from "../assets/Axurre.png"
-import DGLogo from "../assets/digital.png"
-import PersonalLogo from "../assets/personal.png"
-import ServiLogo from "../assets/servinfoo.png"
-import VisionLogo from "../assets/visions.png"
-import AveLogo from "../assets/avecolor.png"
-import ActivityLogo from "../assets/logoactivity.png"
-import CesdeLogo from "../assets/cesde.png"
-import PlatziLogo from "../assets/platzi.png"
-import EnlaceLogo from "../assets/enlace.png"
-import CampusLogo from "../assets/logocampus.png"
-import Python from "../assets/python.png"
+import ConfigLogo from "../assets/configuracion.webp"
+import FrontendLogo from "../assets/backend.webp"
+import MobileLogo from "../assets/phone.webp"
+import BaseDatosLogo from "../assets/base-de-datos.webp"
+import InfinitoLogo from "../assets/infinito.webp"
+import CloudLogo from "../assets/cloud.webp"
+import GOLogo from "../assets/golang.webp"
+import JavaLogo from "../assets/java.webp"
+import TSLogo from "../assets/typescript.webp"
+import ReactLogo from "../assets/reactjs.webp"
+import VueLogo from "../assets/vuejs.webp"
+import FlutterLogo from "../assets/flutter-logo.webp"
+import DartLogo from "../assets/dart.webp"
+import MySQLogo from "../assets/mysql.webp"
+import PostgresLogo from "../assets/postgres.webp"
+import FirestoreLogo from "../assets/firestore.webp"
+import MongoDBLogo from "../assets/mongodb.webp"
+import DockerLogo from "../assets/dcoker.webp"
+import KubernetesLogo from "../assets/kubernetes.webp"
+import JenkinsLogo from "../assets/jenkinss.webp"
+import ArgoLogo from "../assets/argo.webp"
+import AWSLogo from "../assets/awss.webp"
+import GCloudLogo from "../assets/gcloud.webp"
+import AzureLogo from "../assets/Axurre.webp"
+import DGLogo from "../assets/digital.webp"
+import PersonalLogo from "../assets/personal.webp"
+import ServiLogo from "../assets/servinfoo.webp"
+import VisionLogo from "../assets/visions.webp"
+import AveLogo from "../assets/avecolor.webp"
+import ActivityLogo from "../assets/logoactivity.webp"
+import CesdeLogo from "../assets/cesde.webp"
+import PlatziLogo from "../assets/platzi.webp"
+import EnlaceLogo from "../assets/enlace.webp"
+import CampusLogo from "../assets/logocampus.webp"
+import Python from "../assets/python.webp"
 import { ICardAbout, ICardExperience, ICardStudies } from "../interfaces/IAbout"
 
 const cards: ICardAbout[] = [
@@ -84,7 +84,7 @@ const cards: ICardAbout[] = [
             { icon: DockerLogo, name: "Docker" },
             { icon: KubernetesLogo, name: "Kubernetes" },
             { icon: JenkinsLogo, name: "Jenkins" },
-            { icon: TerraLogo, name: "Terraform" }
+            { icon: ArgoLogo, name: "Argo CD" }
         ]
     },
     {
@@ -173,37 +173,37 @@ const cardsStudies: ICardStudies[] = [
         date: "2019",
         title: "Técnico Desarrollador de Software.",
         icon: CesdeLogo,
-        url: "https://drive.google.com/file/d/1unvwdxP60-t6_88y9UliAFAcdqudZxS6/view?usp=share_link"
+        url: "#"
     },
     {
         date: "2022",
         title: "Diplomado en desarrollo Frontend en ReactJS.",
         icon: CampusLogo,
-        url: "https://drive.google.com/file/d/18tOb6F77GuhUQHfKMwSMbJ16aKfQgTyQ/view?usp=share_link"
+        url: "#"
     },
     {
         date: "2021",
         title: "Curso de Go Avanzado: Concurrencia y Patrones de Diseño.",
         icon: PlatziLogo,
-        url: "https://platzi.com/p/mariostyvenv/curso/2388-golang-avanzado/diploma/detalle/"
+        url: "#"
     },
     {
         date: "2021",
         title: "Curso de Go Intermedio: Programación Orientada a Objetos y Concurrencia.",
         icon: PlatziLogo,
-        url: "https://platzi.com/p/mariostyvenv/curso/2357-golang-intermedio/diploma/detalle/"
+        url: "#"
     },
     {
         date: "2021",
         title: "Curso Básico de Programación en Go.",
         icon: PlatziLogo,
-        url: "https://platzi.com/p/mariostyvenv/curso/2232-programacion-golang/diploma/detalle/"
+        url: "#"
     },
     {
         date: "2021",
         title: "Curso de Administración de Servidores Linux.",
         icon: PlatziLogo,
-        url: "https://platzi.com/p/mariostyvenv/curso/1667-linux/diploma/detalle/"
+        url: "#"
     },
 ]
 

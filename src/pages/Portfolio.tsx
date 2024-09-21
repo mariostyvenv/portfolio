@@ -1,4 +1,4 @@
-import LogoGithub from "../assets/github.png"
+import LogoGithub from "../assets/github.webp"
 import TitleBar from "../components/TitleBar";
 import { cardsPortfolio } from "../data/PortfolioData";
 import ReactGA from "react-ga4";

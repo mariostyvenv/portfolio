@@ -1,6 +1,6 @@
-import LogoKanban from "../assets/p-kanban.png"
-import LogoPortafolio from "../assets/portfolio.png"
-import LogoTodo from "../assets/todo.png"
+import LogoKanban from "../assets/p-kanban.webp"
+import LogoPortafolio from "../assets/portfolio.webp"
+import LogoTodo from "../assets/todo.webp"
 import { ICardPortFolio } from "../interfaces/IPortfolio"
 
 const cardsPortfolio: ICardPortFolio[] = [
