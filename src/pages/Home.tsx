@@ -29,10 +29,10 @@ export default function Home() {
                         <p className="text-white font-extrabold pl-2">Contáctame</p>
                     </Link>
                     <div className="flex flex-row">
-                        <a href="https://github.com/mariostyvenv" target="_blank" rel="noreferrer" className="flex mr-4 bg-gradient-to-r from-[#FA5252] to-[#DD2476] py-1 px-2 rounded items-center">
+                        <a href="https://github.com/mariovelandiaco" target="_blank" rel="noreferrer" className="flex mr-4 bg-gradient-to-r from-[#FA5252] to-[#DD2476] py-1 px-2 rounded items-center">
                             <img src={LogoGH} className="h-6 invert" />
                         </a>
-                        <a href="https://www.linkedin.com/in/mariovelandiaco/" target="_blank" rel="noreferrer" className="flex bg-gradient-to-r from-[#FA5252] to-[#DD2476] py-1 px-2 rounded items-center">
+                        <a href="https://www.linkedin.com/in/mariovelandiaco" target="_blank" rel="noreferrer" className="flex bg-gradient-to-r from-[#FA5252] to-[#DD2476] py-1 px-2 rounded items-center">
                             <img src={LogoLk} className="h-6 invert" />
                         </a>
                     </div>
