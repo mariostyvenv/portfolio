@@ -1,7 +1,8 @@
 # Mario Velandia Portfolio
 Demo project: [Portfolio](https://www.mariovelandia.co/)
 
-<img width="1439" alt="portfolio" src="https://github.com/user-attachments/assets/65dfeb2d-d816-4334-bdc9-ef5342b087e9">
+<img width="1425" alt="portfolio" src="https://github.com/user-attachments/assets/65d3a7eb-852d-42ee-8eff-3069226add41">
+
 
 # Technologies
 
