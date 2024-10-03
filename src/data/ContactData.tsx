@@ -22,7 +22,7 @@ const cardsContact: ICardContact[] = [
     },
     {
         icon: LogoMaps,
-        title: "Ubicación",
+        title: "Location",
         description: "Medellín - Colombia",
         url:"mailto:mariovelandia.co@gmail.com"
     },
@@ -31,17 +31,17 @@ const cardsContact: ICardContact[] = [
 const btnFormsRender: IButtonForm[] = [
     {
         icon: <ForwardToInboxOutlinedIcon className="text-white mr-1" />,
-        text: 'Enviar',
+        text: 'Send',
         prevent: false
     },
     {
         icon: <CachedIcon className="text-white mr-1 animate-spin" />,
-        text: 'Cargando...',
+        text: 'Loading...',
         prevent: true
     },
     {
         icon: <CheckOutlinedIcon className="text-white mr-1" />,
-        text: 'Enviado',
+        text: 'Sent',
         prevent: true
     },
     {
@@ -51,7 +51,7 @@ const btnFormsRender: IButtonForm[] = [
     },
     {
         icon: <WarningAmberOutlinedIcon className="text-white mr-1" />,
-        text: 'Recaptcha Inválido',
+        text: 'Invalid Recaptcha',
         prevent: true
     },
 ]
