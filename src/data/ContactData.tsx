@@ -1,6 +1,6 @@
 import LogoMessage from "../assets/message.webp"
+import Linkedin from "../assets/linkedinn.webp"
 import LogoMaps from "../assets/maps.webp"
-import LogoWhatsapp from "../assets/whatsapp.webp"
 import { IButtonForm, ICardContact } from "../interfaces/IContact"
 import CheckOutlinedIcon from '@mui/icons-material/CheckOutlined';
 import WarningAmberOutlinedIcon from '@mui/icons-material/WarningAmberOutlined';
@@ -8,6 +8,12 @@ import ForwardToInboxOutlinedIcon from '@mui/icons-material/ForwardToInboxOutlin
 import CachedIcon from '@mui/icons-material/Cached';
 
 const cardsContact: ICardContact[] = [
+    {
+        icon: Linkedin,
+        title: "Linkedin",
+        description: "mariovelandiaco",
+        url:"https://www.linkedin.com/in/mariovelandiaco/"
+    },
     {
         icon: LogoMessage,
         title: "Email",

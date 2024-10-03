@@ -66,15 +66,15 @@ export default function About() {
 
     return (
         <div className="p-6 md:p-12 w-full bg-[#1E1E1E] mt-10 md:mt-16 rounded-[20px]">
-            <TitleBar title="Habilidades" />
+            <TitleBar title="Skills" />
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-4 pt-10">
                 {renderCards}
             </div>
-            <TitleBar title="Experiencia" className="mt-10"/>
+            <TitleBar title="Work experience" className="mt-10"/>
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-4 pt-10">
                 {renderCardsExperience}
             </div>
-            <TitleBar title="Estudios" className="mt-10"/>
+            <TitleBar title="Studies" className="mt-10"/>
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-4 pt-10">
                 {renderCardsStudies}
             </div>

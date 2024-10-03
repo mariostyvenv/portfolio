@@ -58,7 +58,7 @@ export default function Contact() {
 
     return (
         <div className="p-6 md:p-12 w-full bg-[#1E1E1E] mt-10 md:mt-16 rounded-[20px]">
-            <TitleBar title="Contacto" />
+            <TitleBar title="Contact" />
             <div className="flex mt-10 flex-col space-y-4 lg:flex-row lg:space-x-4 lg:space-y-0">
                 <div className="w-full lg:w-2/5">
                     <div className="flex flex-col space-y-4">
@@ -88,14 +88,14 @@ export default function Contact() {
                 <div className="w-full lg:w-3/5">
                     <div className="border border-slate-400 rounded-xl p-4 md:p-10">
                         <p className="text-slate-400 text-3xl mb-10">
-                            Estoy abierto a escuchar sus<br />
-                            <span className="font-bold text-transparent text-3xl bg-clip-text bg-gradient-to-r from-[#FA5252] to-[#DD2476]">propuestas y proyectos.</span>
+                            I'm open to hearing your <br />
+                            <span className="font-bold text-transparent text-3xl bg-clip-text bg-gradient-to-r from-[#0071E1] to-[#002C88]">proposals and projects.</span>
                         </p>
                         <form onSubmit={handleSubmit}>
-                            <CustomInput name="name" label="Nombre *" />
+                            <CustomInput name="name" label="Name *" />
                             <CustomInput name="email" label="Email *" type="email" />
-                            <CustomInput name="phone" label="Celular *" />
-                            <CustomInput name="message" label="Mensaje *" />
+                            <CustomInput name="phone" label="Cellphone *" />
+                            <CustomInput name="message" label="Message *" />
                             <div className="origin-top-left scale-[0.8] md:scale-100">
                                 <ReCAPTCHA
                                     sitekey="6LfcAwkiAAAAAHjiBnb4JwIJQi-kxUIlihran6Kz"
@@ -103,7 +103,7 @@ export default function Contact() {
                                     theme="dark"
                                 />,
                             </div>
-                            <button type="submit" className="flex bg-gradient-to-r from-[#FA5252] to-[#DD2476] py-2 px-4 rounded mb-2 mr-0 md:mr-5 justify-center">
+                            <button type="submit" className="flex bg-gradient-to-r from-[#0071E1] to-[#002C88] py-2 px-4 rounded mb-2 mr-0 md:mr-5 justify-center">
                                 {btnState.icon}
                                 <p className="text-white font-bold">{btnState.text}</p>
                             </button>

@@ -16,10 +16,10 @@ interface IListNav {
 }
 
 const listNav: IListNav[] = [
-    { name: "Inicio", icon: <HouseOutlinedIcon className="text-white pr-1" />, route: EPages.HOME },
-    { name: "Acerca", icon: <FaceOutlinedIcon className="text-white pr-1" />, route: EPages.ABOUT },
-    { name: "Portafolio", icon: <BusinessCenterOutlinedIcon className="text-white pr-1" />, route: EPages.PORTFOLIO },
-    { name: "Contacto", icon: <ForwardToInboxOutlinedIcon className="text-white pr-1" />, route: EPages.CONTACT }
+    { name: "Home", icon: <HouseOutlinedIcon className="text-white pr-1" />, route: EPages.HOME },
+    { name: "About", icon: <FaceOutlinedIcon className="text-white pr-1" />, route: EPages.ABOUT },
+    { name: "Projects", icon: <BusinessCenterOutlinedIcon className="text-white pr-1" />, route: EPages.PORTFOLIO },
+    { name: "Contact", icon: <ForwardToInboxOutlinedIcon className="text-white pr-1" />, route: EPages.CONTACT }
 ]
 
 
@@ -36,7 +36,7 @@ export default function Navbar() {
 
     const handleStyleButtom = (listNav: IListNav[], index: number, route: EPages) => {
         if (location.pathname === route) {
-            return `flex bg-gradient-to-r from-[#FA5252] to-[#DD2476] py-2 px-4 rounded mb-2 w-full justify-center`
+            return `flex bg-gradient-to-r from-[#0071E1] to-[#002C88] py-2 px-4 rounded mb-2 w-full justify-center`
         }
         return `flex bg-[#1E1E1E] py-2 px-4 rounded mb-2 w-full justify-center`
     }

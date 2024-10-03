@@ -11,7 +11,7 @@ import Contact from './pages/Contact'
 import Home from './pages/Home'
 import Portfolio from './pages/Portfolio'
 import { EPages } from './enums/EPages'
-const TRACKING_ID = "G-7M8DKFKN93"; // OUR_TRACKING_ID
+const TRACKING_ID = "G-T1DTR42L0K";
 import ReactGA from "react-ga4";
 ReactGA.initialize(TRACKING_ID);
 

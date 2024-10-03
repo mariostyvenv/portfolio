@@ -14,25 +14,23 @@ export default function Home() {
             <div className="w-auto md:w-2/5">
                 <div className="">
                     <p className="text-white text-5xl md:text-6xl font-bold">
-                        ¡Hola! soy,<br />
-                        <span className="text-transparent text-5xl md:text-6xl bg-clip-text bg-gradient-to-r from-[#FA5252] to-[#DD2476]">Mario Velandia</span>
+                        Hello! I am<br />
+                        <span className="text-transparent text-5xl md:text-6xl bg-clip-text bg-gradient-to-r from-[#0071E1] to-[#002C88]">Mario Velandia</span>
                     </p>
                     <p className="text-white text-xl md:text-2xl font-bold pt-4">
-                        Desarrollador FullStack con experiencia en
-                        Desarrollo Web, Mobile y Backend orientado a
-                        Microservicios.
+                    FullStack Developer with experience in Web, Mobile, and Backend Development focused on Microservices.
                     </p>
                 </div>
                 <div className="flex justify-between pt-10">
-                    <Link to="/contact" className="flex bg-gradient-to-r from-[#FA5252] to-[#DD2476] py-2 px-4 rounded">
+                    <Link to="/contact" className="flex bg-gradient-to-r from-[#0071E1] to-[#002C88] py-2 px-4 rounded">
                         <ForwardToInboxOutlinedIcon className="text-white" />
-                        <p className="text-white font-extrabold pl-2">Contáctame</p>
+                        <p className="text-white font-extrabold pl-2">Contact me</p>
                     </Link>
                     <div className="flex flex-row">
-                        <a href="https://github.com/mariovelandiaco" target="_blank" rel="noreferrer" className="flex mr-4 bg-gradient-to-r from-[#FA5252] to-[#DD2476] py-1 px-2 rounded items-center">
+                        <a href="https://github.com/mariovelandiaco" target="_blank" rel="noreferrer" className="flex mr-4 bg-gradient-to-r from-[#0071E1] to-[#002C88] py-1 px-2 rounded items-center">
                             <img src={LogoGH} className="h-6 invert" />
                         </a>
-                        <a href="https://www.linkedin.com/in/mariovelandiaco" target="_blank" rel="noreferrer" className="flex bg-gradient-to-r from-[#FA5252] to-[#DD2476] py-1 px-2 rounded items-center">
+                        <a href="https://www.linkedin.com/in/mariovelandiaco" target="_blank" rel="noreferrer" className="flex bg-gradient-to-r from-[#0071E1] to-[#002C88] py-1 px-2 rounded items-center">
                             <img src={LogoLk} className="h-6 invert" />
                         </a>
                     </div>

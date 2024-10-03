@@ -8,19 +8,19 @@ const cardsPortfolio: ICardPortFolio[] = [
         area: "Frontend",
         title: "Kanban Vanilla",
         icon: LogoKanban,
-        url: "https://github.com/mariostyvenv/kanban-vanilla"
-    },
-    {
-        area: "Frontend",
-        title: "Portafolio",
-        icon: LogoPortafolio,
-        url: "https://github.com/mariostyvenv/portfolio"
+        url: "https://github.com/mariovelandiaco/kanban-vanilla"
     },
     {
         area: "Frontend",
         title: "To-Do List",
         icon: LogoTodo,
-        url: "https://github.com/mariostyvenv/react-todo"
+        url: "https://github.com/mariovelandiaco/react-todo"
+    },
+    {
+        area: "Frontend",
+        title: "Portfolio",
+        icon: LogoPortafolio,
+        url: "https://github.com/mariovelandiaco/portfolio"
     },
 ]
 

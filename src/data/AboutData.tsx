@@ -38,7 +38,7 @@ import { ICardAbout, ICardExperience, ICardStudies } from "../interfaces/IAbout"
 const cards: ICardAbout[] = [
     {
         title: "Backend",
-        description: "Creación de sistemas orientados a servicios, microservicios, monolíticos, concurrentes y eventos.",
+        description: "Creation of service-oriented systems, microservices, monolithic, concurrent, and event-driven architectures.",
         icon: ConfigLogo,
         items: [
             { icon: Python, name: "Python" },
@@ -49,7 +49,7 @@ const cards: ICardAbout[] = [
     },
     {
         title: "Frontend",
-        description: "Creación de aplicaciones web adaptativas, progresivas y en tiempo real.",
+        description: "Creation of adaptive, progressive, and real-time web applications.",
         icon: FrontendLogo,
         items: [
             { icon: ReactLogo, name: "ReactJS" },
@@ -58,7 +58,7 @@ const cards: ICardAbout[] = [
     },
     {
         title: "Mobile",
-        description: "Desarrollo de aplicaciones móviles multiplataforma adaptativas, con capacidad de operar offline.",
+        description: "Development of adaptive, cross-platform mobile applications with offline capabilities.",
         icon: MobileLogo,
         items: [
             { icon: FlutterLogo, name: "Flutter" },
@@ -66,8 +66,8 @@ const cards: ICardAbout[] = [
         ]
     },
     {
-        title: "Bases de datos",
-        description: "Admistración de bases de datos relacionales y no relacionales y orientada a eventos.",
+        title: "Databases",
+        description: "Administration of relational and non-relational databases, as well as real-time databases.",
         icon: BaseDatosLogo,
         items: [
             { icon: MySQLogo, name: "MySQL" },
@@ -78,7 +78,7 @@ const cards: ICardAbout[] = [
     },
     {
         title: "DevOps",
-        description: "Creación y administración de contenedores a fin de mantener la orquestación de los servicios en producción.",
+        description: "Creation and administration of containers to maintain the orchestration of services in production.",
         icon: InfinitoLogo,
         items: [
             { icon: DockerLogo, name: "Docker" },
@@ -89,7 +89,7 @@ const cards: ICardAbout[] = [
     },
     {
         title: "Clouds",
-        description: "Creación de infraestrura a la medida y escalable para el despliegue de aplicaciones desarrolladas.",
+        description: "Creation of custom and scalable infrastructure for deploying developed applications.",
         icon: CloudLogo,
         items: [
             { icon: AWSLogo, name: "AWS" },
@@ -103,14 +103,14 @@ const cards: ICardAbout[] = [
 
 const cardsExperience: ICardExperience[] = [
     {
-        date: "2022 - Actualmente",
-        title: "Analista de Automatización N3",
+        date: "2022 - Present",
+        title: "Automation Analyst N3",
         icon: EnlaceLogo,
         url: "https://www.suaporte.com.co/sso/#/",
         items: [
-            <li className="text-white leading-6 pt-1">Backend developer para proyectos internos.</li>,
-            <li className="text-white leading-6 pt-1">Frontend developer para proyectos internos.</li>,
-            <li className="text-white leading-6 pt-1">Asesoramiento de arquitectura de infraestrura y software.</li>,
+            <li className="text-white leading-6 pt-1">Backend Developer for internal projects.</li>,
+            <li className="text-white leading-6 pt-1">Frontend Developer for internal projects.</li>,
+            <li className="text-white leading-6 pt-1">Advising on infrastructure and software architecture.</li>,
         ]
     },
     {
@@ -119,18 +119,18 @@ const cardsExperience: ICardExperience[] = [
         icon: PersonalLogo,
         url: "https://personalsoft.com/",
         items: [
-            <li className="text-white leading-6 pt-1">Backend Developer en <a target="_blank" href="https://mercadolibre.com/" className="font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#FA5252] to-[#DD2476]">Mercadolibre</a>, utilizando tecnologías con Java y Groovy.</li>,
-            <li className="text-white leading-6 pt-1">Backend Developer en <a target="_blank" href="https://leal.co/" className="font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#FA5252] to-[#DD2476]">Leal.co</a>, utilizando tecnologías con NestJS, Redis, Kubernetes.</li>
+            <li className="text-white leading-6 pt-1">Backend Developer at <a target="_blank" href="https://mercadolibre.com/" className="font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#0071E1] to-[#002C88]">Mercadolibre</a>, using technologies such as Java and Groovy.</li>,
+            <li className="text-white leading-6 pt-1">Backend Developer at <a target="_blank" href="https://leal.co/" className="font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#0071E1] to-[#002C88]">Leal.co</a>, using technologies such as NestJS, Redis, and Kubernetes.</li>
         ]
     },
     {
         date: "2021",
-        title: "Ingeniero de desarrollo",
+        title: "Software Development Engineer",
         icon: ServiLogo,
         url: "https://servinformacion.com/",
         items: [
-            <li className="text-white leading-6 pt-1">Frontend Developer en ReactJS.</li>,
-            <li className="text-white leading-6 pt-1">Creación de Widgets para la plataforma ARCGIS.</li>
+            <li className="text-white leading-6 pt-1">Frontend Developer in ReactJS.</li>,
+            <li className="text-white leading-6 pt-1">Creation of Widgets for the ARCGIS platform.</li>
         ]
     },
     {
@@ -139,72 +139,72 @@ const cardsExperience: ICardExperience[] = [
         icon: VisionLogo,
         url: "https://www.visionsoftware.com.co/",
         items: [
-            <li className="text-white leading-6 pt-1">Analista de proyectos para el <a target="_blank" href="https://www.grupoaval.com/" className="font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#FA5252] to-[#DD2476]">Grupo Aval.</a></li>,
-            <li className="text-white leading-6 pt-1">Creación de prototipos funcionales con VueJS y NodeJS.</li>,
-            <li className="text-white leading-6 pt-1">Creación de proyectos en la Nube con Azure y Kubernetes.</li>
+            <li className="text-white leading-6 pt-1">Project Analyst for <a target="_blank" href="https://www.grupoaval.com/" className="font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#0071E1] to-[#002C88]">Grupo Aval.</a></li>,
+            <li className="text-white leading-6 pt-1">Creation of functional prototypes with VueJS and NodeJS.</li>,
+            <li className="text-white leading-6 pt-1">Creation of cloud projects with Azure and Kubernetes.</li>
         ]
     },
     {
         date: "2019 - 2021",
-        title: "Lider de desarrollo de software",
+        title: "Software Development Leader",
         icon: AveLogo,
         url: "https://aveonline.co/",
         items: [
-            <li className="text-white leading-6 pt-1">Creación de la nueva arquitectura de software de la compañía.</li>,
-            <li className="text-white leading-6 pt-1">Apificación de los servicios ofrecidos de la compañía.</li>,
-            <li className="text-white leading-6 pt-1">Optimización del backend existente.</li>
+            <li className="text-white leading-6 pt-1">Creation of the new software architecture of the company.</li>,
+            <li className="text-white leading-6 pt-1">API-fication of the services offered by the company.</li>,
+            <li className="text-white leading-6 pt-1">Optimization of the existing backend.</li>
         ]
     },
     {
         date: "2019",
-        title: "Desarrollador de Software",
+        title: "Software Developer",
         icon: ActivityLogo,
         url: "https://activity.technology/",
         items: [
-            <li className="text-white leading-6 pt-1">Desarrollar sistemas SOAP Y REST.</li>,
-            <li className="text-white leading-6 pt-1">Mantenimiento de aplicaciones web existentes en la compañía.</li>,
-            <li className="text-white leading-6 pt-1">Desarrollar aplicaciones móviles Android.</li>
+            <li className="text-white leading-6 pt-1">Develop SOAP and REST systems.</li>,
+            <li className="text-white leading-6 pt-1">Maintenance of existing web applications in the company.</li>,
+            <li className="text-white leading-6 pt-1">Develop Android mobile applications.</li>
         ]
     },
-]
+];
 
 const cardsStudies: ICardStudies[] = [
     {
         date: "2019",
-        title: "Técnico Desarrollador de Software.",
+        title: "Software Development Technician.",
         icon: CesdeLogo,
         url: "#"
     },
     {
         date: "2022",
-        title: "Diplomado en desarrollo Frontend en ReactJS.",
+        title: "Diploma in Frontend Development with ReactJS.",
         icon: CampusLogo,
         url: "#"
     },
     {
         date: "2021",
-        title: "Curso de Go Avanzado: Concurrencia y Patrones de Diseño.",
+        title: "Advanced Go Course: Concurrency and Design Patterns.",
         icon: PlatziLogo,
         url: "#"
     },
     {
         date: "2021",
-        title: "Curso de Go Intermedio: Programación Orientada a Objetos y Concurrencia.",
+        title: "Intermediate Go Course: Object-Oriented Programming and Concurrency.",
         icon: PlatziLogo,
         url: "#"
     },
     {
         date: "2021",
-        title: "Curso Básico de Programación en Go.",
+        title: "Basic Go Programming Course.",
         icon: PlatziLogo,
         url: "#"
     },
     {
         date: "2021",
-        title: "Curso de Administración de Servidores Linux.",
-        icon: PlatziLogo,
+        title: "Diploma in Software Quality Assurance.",
+        icon: CampusLogo,
         url: "#"
     },
-]
+];
 
 export { cards, cardsExperience, cardsStudies }
